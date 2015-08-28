@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bellhouse - Reservations</title>
+    
+   <!-- <link type="text/css" href="../../960-Grid-System-master/960-Grid-System-master/code/css/960_12_col.css" rel="stylesheet" /> -->
+    <link type="text/css" href="../css/style_sheet.css" rel="stylesheet" />
+    
+    <meta name="description" content="About page for Bell House Resturant"/>
+    <meta name="keywords" content="Bell, House, Resturant, Shelbyville, Ky, Kentucky, Louisville, Simpsonville, Frankfort, US 60, main street, food, hotbrown, pasta, burger, sandwich, soup, dinner, lunch, historic, about"/>
+    <meta name="author" content="David Paller"/>
+    
+</head>
+    
+    <!--Facebook button code -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<body>  
+    
+    
+    
+    
+    
+    
+    <div id="main_content">
+    
+    <ul class="nav">
+            <li class="top_nav" id="home_nav"><a href="../../index.html">Home</a></li>
+            <li class="top_nav"><a href="about.html">About</a></li>
+            <li class="top_nav"><a href="menus.html">Menus</a></li>
+            <li class="top_nav"><a href="contact.html">Contact</a></li>
+            <li class="top_nav"><a href="reservation.html">Reservations</a></li>
+        </ul>
+        
+        <input type="checkbox" class="nav_trigger" id="nav_trigger">
+        <label for="nav_trigger"></label>
+        
+        <div id="white_space"></div>
+        
+        
+        
+        
+        
+        <div class="site-wrap">
+            
+            
+            
+    
+        <article class="mc">
+        <h1 class="form_head">Place a Reservation</h1>
+            
+            
+            <form action="reservation.php" method="post">
+                <p>Name</p> <input class="reg_input" name="name" type="text" />
+                
+                <p>Attendees</p> <input name="numOfPeople" type="number" min="1" max="25" />
+                
+                <p>Date</p> <input name="date" type="date" />
+                
+                <p>Time</p> <input name="time" type="time" />
+                
+                <p>Phone Number</p> <input class="reg_input" name="phone" type="text" maxlength="10" />
+                
+               <p>Email Address*</p> <input class="reg_input" name="email" type="email" />
+                
+                <p>Special Instructions <textarea id="comments" name="comments">Enter any comments or special instructions here...</textarea></p>
+                
+                <input class="submit_button" name="submit_reservation" type="submit" value="Place Reservation">
+            
+                <p class="small"><br />*We will not use this address to send any promotional material.</p>
+            </form>
+        
+        </article>
+            
+            
+            
+    
+    <footer>
+        <ul id="footer_info">
+            <li class="footer_list">721 Main Street Shelbyville, KY 40065</li>
+            <li class="footer_list" id="com_links"><a href="community_links.html">Community links</a></li>
+            <li class="footer_list" id="careers"><a href="careers.html">Careers</a></li>
+        
+        
+        
+            <li class="footer_list"><div class="fb-like" data-href="https://www.facebook.com/pages/Bell-House-Restaurant/133006433415555?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
+            
+            <li class="footer_list"><div id="TA_restaurantWidgetWhite887" class="TA_restaurantWidgetWhite">
+<ul id="lmNlS3OW" class="TA_links x3IPeOx0Qr">
+<li id="W6JBCVIZqo" class="D8h8njeS">
+<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/partner/tripadvisor_logo_117x18-24177-2.png" alt="TripAdvisor"/></a>
+</li>
+</ul>
+</div>
+<script src="http://www.jscache.com/wejs?wtype=restaurantWidgetWhite&amp;uniq=887&amp;locationId=1900660&amp;icon=knifeAndFork&amp;lang=en_US&amp;display_version=2"></script>
+</li>
+            
+            </ul> 
+    
+    </footer>
+    </div>
+    </div>
+</body>
+    
+</html>
